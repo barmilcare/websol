@@ -1,0 +1,261 @@
+{
+  "research": {
+    "checked": "2026-09-12",
+    "market": "Australia; Sydney service intent where relevant",
+    "status": "Semrush keyword and domain discovery returned insufficient API units; volume and organic difficulty remain unverified for every candidate.",
+    "metric_values": null,
+    "method": "Service-led intent mapping and page relevance. Priorities reflect the business offer and content utility, not measured ranking ease. Industry pages are experiments."
+  },
+  "pages": {
+    "/": {
+      "primary": "web design Sydney",
+      "secondary": [
+        "website design Sydney",
+        "web design services Sydney"
+      ],
+      "intent": "Local service and brand",
+      "priority": "Core",
+      "title": "Web Design Sydney, SEO & AI | Web Solution Sydney",
+      "heading": "Web design for Sydney businesses. Built for your next chapter.",
+      "related": [
+        "/small-business-web-design/",
+        "/website-packages/",
+        "/seo-services/"
+      ]
+    },
+    "/website-packages/": {
+      "primary": "small business website packages",
+      "secondary": [
+        "website design packages",
+        "affordable website design packages"
+      ],
+      "intent": "Compare scope and request a quote",
+      "priority": "Core",
+      "related": [
+        "/small-business-web-design/",
+        "/guides/website-costs/",
+        "/website-hosting/"
+      ],
+      "append": "## Comparing affordable website design packages\n\nAn affordable project starts with a useful scope. Separate what your first website needs from features that can wait: explain your services, make contact simple and give visitors evidence they can trust. A fixed page count is only one part of a quote; writing, image sourcing, revisions and launch support also affect the work involved.\n\nOur [website costs guide](/guides/website-costs/) sets out the items to compare. Ask for one-off and recurring costs separately, including [website hosting and maintenance](/website-hosting/). We provide a written project quote rather than advertising a price that leaves essential work unclear."
+    },
+    "/website-redesign/": {
+      "primary": "website redesign Sydney",
+      "secondary": [
+        "small business website redesign",
+        "website redesign services"
+      ],
+      "intent": "Improve or replace an existing website",
+      "priority": "Core",
+      "related": [
+        "/guides/website-not-getting-enquiries/",
+        "/website-packages/",
+        "/seo-services/"
+      ],
+      "append": "## A redesign should preserve useful pages\n\nBefore replacing an existing website, we identify the pages, downloads and contact routes people may already use. Where a URL must change, we plan a relevant redirect. Important service information should remain accessible after launch, and analytics should be checked so you can compare the new site with the old one.\n\nIf the problem is a quiet inbox, read [why a website may not get enquiries](/guides/website-not-getting-enquiries/). It helps separate visibility problems from unclear content or a broken contact process. [Ongoing SEO services](/seo-services/) can be scoped alongside a redesign when attracting relevant search visitors is also a priority."
+    },
+    "/website-hosting/": {
+      "primary": "small business website hosting",
+      "secondary": [
+        "website maintenance Australia",
+        "website hosting and maintenance",
+        "WordPress website maintenance"
+      ],
+      "intent": "Ongoing hosting, maintenance and support",
+      "priority": "Core",
+      "heading": "Small business website hosting and maintenance",
+      "related": [
+        "/website-redesign/",
+        "/website-packages/",
+        "/guides/website-costs/"
+      ],
+      "body": "Small business website hosting gives your site a place to run. Maintenance is the work that keeps its software, content and contact options useful over time. We help Australian businesses understand both, with responsibilities and recurring costs agreed before the service begins.\n\nWeb Solution Sydney can assess a new or existing website and scope the hosting, care and support it needs. The right arrangement depends on the platform, how frequently the site changes and which services your business relies on.\n\n## What hosting and maintenance cover\n\nHosting, domain registration and business email are separate services even when they appear on one invoice. Your proposal should identify who manages each one, how it renews and who controls the account. We also define which routine website tasks are included and how additional work is quoted.\n\nA care scope can cover website availability checks, backup arrangements, platform updates and checking that important pages and enquiry links still work. The frequency, backup retention, restore process and support arrangements must be stated for your website rather than assumed.\n\n## WordPress website maintenance\n\nWordPress sites may need updates to their core software, theme and plugins. Changes should be assessed for compatibility, with a way to restore the site if something goes wrong. Paid plugin licences and specialist troubleshooting may carry separate costs.\n\nA static website has different maintenance needs: there may be no WordPress plugins to update, but contact delivery, domain renewal, content and third-party integrations still need attention. We scope the work for the actual platform.\n\n## Moving an existing website\n\nStart by identifying the current provider, platform, domain account, email services and any databases or forms. This helps us plan what needs moving and what needs preserving. Keeping email working is part of the migration plan; a website move should not accidentally replace mail records.\n\nIf the website also needs new content or a different structure, we can discuss a [website redesign](/website-redesign/) before deciding on hosting. Access requirements and the cutover are agreed before changes to live services.\n\n## Support with clear responsibilities\n\nTell us how often you expect to change the website and which tasks you want help with. We will explain what support is included, how to request a change and which third-party costs remain your responsibility. A service scope should identify response arrangements without promising that every issue will be resolved immediately.\n\nOur [website costs guide](/guides/website-costs/) helps you compare recurring charges with the original build. You can also combine a new site with an agreed care option through our [website packages](/website-packages/).\n\n## What should you send us?\n\nShare your current website address, the platform if known, the type of help you need and any renewal or migration deadline. Do not send account passwords in an enquiry. We can identify the appropriate access method once the work is scoped.\n\n[Discuss hosting and website maintenance](/contact/) to get a proposal for your website."
+    },
+    "/seo-services/": {
+      "primary": "SEO services for small businesses",
+      "secondary": [
+        "small business SEO Sydney",
+        "local SEO services",
+        "on-page SEO services",
+        "technical SEO services"
+      ],
+      "intent": "Improve relevant organic search visibility",
+      "priority": "Core",
+      "heading": "SEO services for small businesses in Sydney and across Australia",
+      "related": [
+        "/guides/website-not-getting-enquiries/",
+        "/small-business-web-design/",
+        "/website-redesign/"
+      ],
+      "body": "SEO services for small businesses should begin with what you sell, who needs it and whether your website can be found and understood. We help businesses in Sydney and across Australia plan useful pages, improve technical foundations and assess the enquiries that search brings.\n\nIf your site has little or no recorded traffic, the first step is a baseline. That means checking measurement, crawl access and the current pages before assuming a redesign or a large content campaign is the answer.\n\n## Keyword research and page planning\n\nWe group searches by customer intent and map each group to a suitable page. A service enquiry, a price comparison and a how-to question may need different content. Several variations of the same request can usually be answered on one strong page.\n\nSearch-volume and difficulty estimates help assess opportunities when available. They are considered alongside relevance, competing results and the business's ability to answer the query well. We distinguish measured data from candidate terms that still need validation.\n\n## On-page SEO and useful service content\n\nOn-page SEO includes clear titles, headings, descriptions and internal links, supported by content that answers a customer's practical questions. Service scope, process, coverage, cost factors and real examples give a page substance.\n\nThe aim is to make the page useful to someone choosing a provider. Repeating a phrase throughout the copy does not replace explaining the service. A [small business website](/small-business-web-design/) can provide a focused starting structure and grow as new needs become clear.\n\n## Technical SEO checks\n\nWe review whether important pages can be crawled, return appropriate responses and point to the intended canonical URLs. The work can include sitemaps, redirects, broken links, mobile usability, asset loading and structured data that reflects the actual business.\n\nTechnical work makes content accessible; it does not guarantee rankings. If a new structure is required, [website redesign](/website-redesign/) can be scoped with a plan to preserve useful existing URLs and content.\n\n## Local SEO services\n\nFor businesses serving defined areas, local SEO brings service information and genuine coverage together. We can improve location context, relevant service pages and consistent business information.\n\nBusiness profiles and local directories are only used where the business meets their requirements. An online-only business should not invent a local office to create a Maps listing. We also avoid filling a site with near-identical suburb pages that give visitors no additional help.\n\n## Reporting and next steps\n\nReporting should connect search impressions, clicks and relevant landing pages with actual enquiries where measurement is available. We distinguish a click on a contact button from an enquiry that has been submitted or received.\n\nOngoing work is agreed around the next useful improvement: correcting a technical issue, strengthening a service page or answering a real customer question. Timelines and results depend on the market, competition and the website's starting point.\n\n## Starting with a quiet website\n\nRead our guide to [why a website is not getting enquiries](/guides/website-not-getting-enquiries/) for the checks to make first. Then [tell us about your business](/contact/), the services you want to grow and the areas you serve. We can scope an initial review and explain what access would help."
+    },
+    "/ai-marketing/": {
+      "primary": "AI marketing for small businesses",
+      "secondary": [
+        "website chatbot setup",
+        "AI chatbot for small business",
+        "marketing automation for small business"
+      ],
+      "intent": "Set up a practical business workflow",
+      "priority": "Core; validate narrower queries",
+      "heading": "AI marketing, website chatbots and enquiry automation",
+      "related": [
+        "/seo-services/",
+        "/small-business-web-design/",
+        "/contact/"
+      ],
+      "body": "AI marketing for small businesses works best when it solves a defined task. That might be answering repeated website questions, gathering the details needed for a quote or helping prepare content for review.\n\nWeb Solution Sydney helps you scope website chatbot setup and marketing automation around the information and tools your business already uses. We begin with one useful workflow, agree on its limits and check how it behaves before expanding it.\n\n## Website chatbot setup\n\nA website chatbot can answer routine questions using approved information about your services, opening hours, process and contact options. We identify what it may answer and what should be passed to a person.\n\nFor a service business, a useful starting point is a short set of customer questions with checked answers. Prices, availability and service commitments should only be presented when the business has supplied and approved them. Where information is missing, the visitor needs a clear route to ask your team.\n\n## Enquiry collection and follow-up\n\nA workflow can gather a visitor's service interest, location and short project description, then send the enquiry to the agreed inbox or customer system. The fields and destinations should match how the business responds.\n\nWe can scope an acknowledgement or internal notification separately from a sales response. Any automatic email needs agreed wording and sender settings. A personal reply should remain available for complex enquiries or situations that automation cannot resolve.\n\n## Content support with human review\n\nAI can help organise an outline, turn business notes into a first draft or prepare variations of a service explanation. The final content still needs accurate facts, useful detail and an editorial check.\n\nWe do not treat generated copy as evidence of results, client work or qualifications. You approve claims about your business, and real project material is used with permission. If search visibility is the main goal, our [SEO services](/seo-services/) provide a separate plan for the pages and queries to target.\n\n## Decide what to connect\n\nBefore integrating a chatbot or automation, we review the website platform, the information it needs, who can access it and the intended destination of enquiries. Third-party subscriptions, usage limits and ongoing support are explained alongside the setup work.\n\nWe also decide how a visitor can contact you if the tool is unavailable. A clear [small business website](/small-business-web-design/) and reliable contact options remain central to the customer journey.\n\n## Check the workflow before launch\n\nTesting covers common questions, unclear requests, incorrect assumptions, failed connections and handing a conversation to a person. A chatbot should not quietly invent an answer when it is uncertain. For an enquiry workflow, we check the destination and confirmation message rather than assuming a button click means an email arrived.\n\n## Does a chatbot create website traffic?\n\nA chatbot can help people who are already on the site. It does not by itself attract visitors or guarantee sales. We agree on a practical measure for the task, such as fewer unanswered routine questions or more complete enquiries.\n\n[Discuss AI marketing for your business](/contact/). Tell us which repeated task takes time, how you currently handle it and which tools you use."
+    },
+    "/about/": {
+      "primary": "Web Solution Sydney",
+      "secondary": [
+        "about Web Solution Sydney"
+      ],
+      "intent": "Brand and trust",
+      "priority": "Supporting",
+      "heading": "About Web Solution Sydney",
+      "related": [
+        "/small-business-web-design/",
+        "/seo-services/",
+        "/contact/"
+      ]
+    },
+    "/contact/": {
+      "primary": "Web Solution Sydney contact",
+      "secondary": [
+        "website design quote",
+        "SEO quote"
+      ],
+      "intent": "Enquire",
+      "priority": "Conversion",
+      "related": [
+        "/website-packages/",
+        "/guides/website-costs/"
+      ]
+    },
+    "/tradie-websites/": {
+      "primary": "websites for tradies",
+      "secondary": [
+        "tradie website design",
+        "tradie web design Australia"
+      ],
+      "intent": "Trade service provider selection",
+      "priority": "Core vertical; demand unverified",
+      "heading": "Websites for tradies across Australia",
+      "related": [
+        "/electrician-website-design/",
+        "/plumber-website-design/",
+        "/landscaping-website-design/"
+      ],
+      "append": "## Website planning for different trades\n\nThe information a customer needs changes with the work. An [electrician website](/electrician-website-design/) can separate installations, upgrades and fault finding. A [plumber website](/plumber-website-design/) can distinguish urgent contact from planned work. A [landscaping website](/landscaping-website-design/) benefits from project context and a clear consultation process.\n\nUse the services you actually provide to shape the pages. Your qualifications, photos and service-area details should be confirmed before publication. We can also help [cleaning businesses](/cleaning-website-design/) describe recurring work and quote requirements. These examples guide the content; the project scope is agreed for your business."
+    },
+    "/small-business-web-design/": {
+      "primary": "small business web design",
+      "secondary": [
+        "small business web design Australia",
+        "websites for small businesses"
+      ],
+      "intent": "First business website or focused service site",
+      "priority": "Core",
+      "heading": "Small business web design for a confident first impression",
+      "related": [
+        "/website-packages/",
+        "/website-hosting/",
+        "/guides/website-costs/"
+      ],
+      "body": "Small business web design starts with a simple question: what does a customer need to know before contacting you? We build websites for Australian small businesses around that decision, from understanding the service to requesting a quote.\n\nYou may be starting your first site, moving beyond a social media page or giving an established business a clearer online presence. We work remotely with businesses across Australia and plan the pages around your actual offer, customers and next stage of growth.\n\n## Choose the pages your customers need\n\nA useful first website usually explains what you do, who it is for, where you work and how someone can contact you. Separate service pages make sense when the services answer different needs. A small business does not need dozens of pages to begin explaining itself well.\n\nWe can organise a home page, service information, an about page and contact options, with work examples where you have material to show. The exact pages, features and content responsibilities are agreed in your [website package](/website-packages/).\n\n## Write content around real questions\n\nThe site should explain your process, what is included, how a quote works and what information you need from a customer. Specific details help visitors decide whether the business fits their needs.\n\nWe use the facts and examples you provide rather than filling gaps with invented reviews, staff, awards or results. If you do not have a portfolio yet, clear service information and an honest description of your experience provide a starting point.\n\n## Make contact comfortable on mobile\n\nPhone links, readable text and a concise enquiry form help people take the next step on a smaller screen. Form fields should ask for enough detail to respond without turning a first enquiry into a lengthy questionnaire.\n\nFeatures such as online booking, payments, customer accounts or integrations need a separate scope. We discuss how they will work and any third-party costs before including them in the build.\n\n## Include SEO foundations from the beginning\n\nA new website needs clear page titles, headings, internal links and a structure search engines can access. Those foundations support the content; they do not guarantee an immediate flow of visitors.\n\nIf ongoing search growth is part of the plan, we can scope [SEO services](/seo-services/) around the business's priorities. Publishing additional pages should follow a useful customer need rather than a target page count.\n\n## Understand ownership and ongoing costs\n\nYour proposal should identify the platform, the review process and how changes will be handled after launch. Domain registration, business email and [website hosting and maintenance](/website-hosting/) may have separate recurring charges.\n\nRead the [website costs guide](/guides/website-costs/) to compare proposals on the same basis. Then [request a small business website quote](/contact/) with your services, current website if any and the next step you want customers to take."
+    },
+    "/electrician-website-design/": {
+      "primary": "electrician website design",
+      "secondary": [
+        "websites for electricians",
+        "electrical contractor website design"
+      ],
+      "intent": "Electrical business website enquiry",
+      "priority": "Industry experiment; demand unverified",
+      "heading": "Electrician website design that explains the work you do",
+      "related": [
+        "/tradie-websites/",
+        "/website-packages/",
+        "/seo-services/"
+      ],
+      "body": "Electrician website design should help customers identify the right service and contact your business with useful details. We create websites for electricians and electrical contractors across Australia, with a clear structure for the work they want to attract.\n\nA homeowner asking about a switchboard upgrade and a facilities manager arranging ongoing maintenance have different questions. Your website can serve both without making either visitor search through a long, undifferentiated service list.\n\n## Separate your electrical services\n\nWe plan service sections around your actual capabilities: residential installations, commercial work, lighting, data, fault finding or other approved services. Each important service should explain who it is for, what the work involves and how to request an assessment.\n\nThe scope comes from your business. Emergency availability, specialist authorisations, licence details and compliance claims must be confirmed before they appear. Clear language is more useful than making every service sound urgent.\n\n## Use project examples with context\n\nA project photograph works harder when it explains the setting, the customer's request and the work delivered. With appropriate permission, a short example can show the types of jobs your business handles.\n\nWe can organise genuine electrical project images into a gallery or relevant service pages. Customer names, addresses and identifying details should only be published when authorised. If suitable photos are not ready, the site can begin with accurate service information.\n\n## Make quote enquiries more useful\n\nAn electrician enquiry can ask for a suburb, property type, preferred service and short description. It should also explain what happens after submission so customers understand that an enquiry is a request for follow-up rather than a confirmed booking.\n\nClick-to-call details give visitors another contact option. If you offer urgent callouts, we can make the phone route clear using the availability you confirm. The website will not promise a response time that your business has not agreed to.\n\n## Describe your service area accurately\n\nUse the locations you genuinely cover, with useful project or service context where available. We avoid making near-identical suburb pages simply to add more search terms. [Ongoing SEO](/seo-services/) can be scoped separately when local visibility is a priority.\n\n## Plan the website and its upkeep\n\nThe project can include mobile-friendly layouts, service copy, contact options and agreed SEO foundations. Hosting, maintenance, booking tools and other integrations are identified separately in the scope.\n\nCompare our [website packages](/website-packages/) or explore the broader approach to [websites for tradies](/tradie-websites/). To [request an electrician website quote](/contact/), send your services, current website, service area and any project material you are authorised to use."
+    },
+    "/plumber-website-design/": {
+      "primary": "plumber website design",
+      "secondary": [
+        "websites for plumbers",
+        "plumbing website design"
+      ],
+      "intent": "Plumbing business website enquiry",
+      "priority": "Industry experiment; demand unverified",
+      "heading": "Plumber website design for urgent and planned enquiries",
+      "related": [
+        "/tradie-websites/",
+        "/website-packages/",
+        "/website-hosting/"
+      ],
+      "body": "Plumber website design needs to make the next step clear. A visitor looking for help with a leak may want to call, while someone planning a renovation may need more information before asking for a quote.\n\nWe build websites for plumbers across Australia around the services they actually provide. The pages explain the work, coverage and enquiry process, with contact options that remain easy to use on a phone.\n\n## Give different plumbing services room to explain themselves\n\nBlocked drains, hot water, maintenance, renovation work and gas services can involve different customer questions. We organise the important services into a structure that helps a visitor find the relevant information.\n\nEach page should describe your approved scope and how you assess a job. Availability, licence details, guarantees and callout terms come from your business. They should not be inferred from what other plumbers advertise.\n\n## Distinguish a phone call from a quote request\n\nIf your business handles urgent work, a clear phone link can be prominent where appropriate. Planned work may suit a short enquiry form that asks for the property suburb, service type and a brief description.\n\nThe site should explain whether a response, inspection or further discussion is needed before a price can be provided. A sent enquiry is not automatically a confirmed attendance or booking. We make those expectations clear in the copy and contact flow.\n\n## Help customers understand the process\n\nExplain what information will help your business respond, such as the type of property or the equipment involved. Keep the first step short and avoid asking visitors to share sensitive information through a general form.\n\nReal project examples can show the kind of work you handle. Photos need relevant descriptions and permission to publish any identifying details. Testimonials are only included when you have genuine statements that may be used.\n\n## Organise local service information\n\nYour service area should reflect where you can actually work. Relevant locations can sit alongside the services and projects they relate to; the website does not need a separate page for every surrounding suburb.\n\nSearch foundations include descriptive page titles, useful headings and links between services. [SEO services](/seo-services/) can be added when you want an ongoing plan for visibility.\n\n## Scope a new site or improve an old one\n\nA plumbing website project can start with focused service pages, business information and contact options. If an existing website has useful URLs or enquiries already arriving, we review what to keep before replacing it.\n\nExplore [website packages](/website-packages/) and [hosting and maintenance](/website-hosting/) to understand the build and ongoing work. [Tell us about your plumbing business](/contact/), its services and the enquiries you want the website to support."
+    },
+    "/cleaning-website-design/": {
+      "primary": "cleaning business website design",
+      "secondary": [
+        "cleaning company website design",
+        "websites for cleaning businesses"
+      ],
+      "intent": "Cleaning business website enquiry",
+      "priority": "Industry experiment; demand unverified",
+      "heading": "Cleaning business website design with a clearer quote process",
+      "related": [
+        "/small-business-web-design/",
+        "/website-packages/",
+        "/seo-services/"
+      ],
+      "body": "Cleaning business website design should answer three questions quickly: what do you clean, where do you work and how can a customer request a price? We create websites for Australian cleaning businesses that make those answers easy to find.\n\nResidential cleaning, commercial contracts and one-off specialist jobs can require different information. The website is planned around your actual services and how your team prices and schedules the work.\n\n## Organise services by the customer's needs\n\nDomestic, office, end-of-lease, carpet and window cleaning may need separate explanations when they form distinct parts of the business. A useful service page describes the type of property, what is included and any exclusions customers need to understand.\n\nWe work from the services you confirm. Claims about insurance, certifications, products, inspection outcomes or guarantees should be checked before publication. A clear scope avoids promising work your team does not provide.\n\n## Ask for useful quote details\n\nA cleaning enquiry can collect a suburb, property or premises type, approximate size and whether the customer wants a one-off or recurring service. These details can help you respond with fewer follow-up questions.\n\nAt the first enquiry, an exact home address, entry codes or payment details are usually unnecessary. Access arrangements can be discussed through the appropriate channel after you have agreed on the job. The form should also explain whether a request is awaiting a quote or a booking confirmation.\n\n## Explain recurring and commercial work\n\nCustomers comparing ongoing services may want to know how you assess a premises, discuss frequency and handle special requirements. Describe your real process without committing to a price or availability that has not been checked.\n\nFor commercial cleaning, project context and an explanation of the handover can be more useful than a generic gallery. We can organise approved work examples, team information and genuine testimonials when you have permission to use them.\n\n## Keep service areas and contact options clear\n\nA mobile-friendly layout makes service information, phone links and quote requests comfortable to use. Coverage should reflect where your team actually operates, with meaningful content instead of repetitive location pages.\n\n[SEO services](/seo-services/) can support a longer-term visibility plan once the website's foundations and measurement are in place.\n\n## Start with a manageable website\n\nYou can begin with a focused site and add booking integrations or a customer system later if the business needs them. Any external software, setup requirements and recurring fees are agreed separately.\n\nSee our [small business web design approach](/small-business-web-design/) and [website packages](/website-packages/). To [request a cleaning website quote](/contact/), share the services you want to promote, the areas you cover and how you currently handle enquiries."
+    },
+    "/landscaping-website-design/": {
+      "primary": "landscaping website design",
+      "secondary": [
+        "websites for landscapers",
+        "gardening business website design"
+      ],
+      "intent": "Landscaping business website enquiry",
+      "priority": "Industry experiment; demand unverified",
+      "heading": "Landscaping website design that gives your projects context",
+      "related": [
+        "/tradie-websites/",
+        "/website-packages/",
+        "/website-redesign/"
+      ],
+      "body": "Landscaping website design combines project imagery with an explanation of how the work begins. Customers need to see whether your style, services and process fit what they have in mind before requesting a consultation.\n\nWe build websites for landscapers and gardening businesses across Australia. The content reflects your actual services, whether you focus on landscape projects, planting, garden maintenance or a combination of work.\n\n## Show the right projects\n\nChoose examples that represent the work you want more of. A strong project page can explain the customer's brief, the site constraints and what your business delivered, alongside images used with permission.\n\nA before-and-after sequence is useful when it is genuine and comparable. We do not invent completed projects or outcomes to fill a gallery. Locations can be described at a suitable level without publishing a client's address.\n\n## Give services a clear structure\n\nLandscape design, construction and ongoing garden care answer different needs. We organise service information around your capabilities and explain how the customer moves from an idea to a discussion or quote.\n\nIf particular work depends on licences, approvals or specialist partners, the wording should reflect your real arrangements. A garden maintenance customer should also be able to find recurring service information without reading through large construction projects.\n\n## Explain the consultation process\n\nOutline how you discuss requirements, review a site, scope the work and prepare a proposal. Customers can then understand which decisions happen before pricing or scheduling is confirmed.\n\nThe website can explain what helps at the first enquiry: a suburb, the project type, a short description and the stage the customer is at. Photos or detailed plans can be requested later through an agreed channel.\n\n## Make galleries work on mobile\n\nLarge images need sensible file sizes, relevant descriptions and a layout that does not make a visitor wait for every photo before reading the page. Important service and contact information should remain accessible alongside the work.\n\nA gallery is not a substitute for service content. We connect relevant project material with explanations of the work and the next step a customer can take.\n\n## Build around your next stage\n\nA new site may start with core services, a small selection of authorised work examples and a consultation enquiry. An existing site may benefit from a [website redesign](/website-redesign/) that preserves its useful content and links.\n\nExplore [websites for tradies](/tradie-websites/) and our [website packages](/website-packages/) for the wider process. [Discuss a landscaping website](/contact/) with your service list, current website and project material you can publish."
+    },
+    "/guides/website-costs/": {
+      "primary": "small business website costs",
+      "secondary": [
+        "website design cost Australia",
+        "what should a website quote include"
+      ],
+      "intent": "Informational comparison",
+      "priority": "Supporting guide",
+      "heading": "Small business website costs: what should a quote include?",
+      "related": [
+        "/website-packages/",
+        "/website-hosting/",
+        "/contact/"
+      ]
+    },
+    "/guides/website-not-getting-enquiries/": {
+      "primary": "website not getting enquiries",
+      "secondary": [
+        "why is my website not getting enquiries",
+        "website not generating leads"
+      ],
+      "intent": "Diagnostic information",
+      "priority": "Supporting guide",
+      "related": [
+        "/seo-services/",
+        "/website-redesign/",
+        "/contact/"
+      ]
+    }
+  }
+}
