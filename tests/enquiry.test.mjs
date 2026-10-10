@@ -4,7 +4,7 @@ import { handleEnquiry } from '../server/enquiry.mjs';
 
 const origin = 'https://websolutionsydney.com.au';
 const env = { RESEND_API_KEY: 'test-secret-not-live', ENQUIRY_FROM: 'Website <forms@example.com>', ENQUIRY_TO: 'owner@example.com' };
-const fields = { name: 'Test User', email: 'visitor@example.com', message: 'Please discuss a business website.', requestId: 'ea616011-a221-4098-9b8f-6ff5ebefcc6c', company_url: '' };
+const fields = { name: 'Test User', email: 'visitor@example.com', phone: '0412345678', business: 'Test Pty Ltd', service: 'Website Design & Development', budget: '$2,000 – $5,000', website: 'https://example.com.au', message: 'Please discuss a business website.', requestId: 'ea616011-a221-4098-9b8f-6ff5ebefcc6c', company_url: '' };
 function request(data = fields, overrides = {}) {
   return new Request(origin + '/api/enquiry', { method: 'POST', headers: { origin, 'content-type': 'application/json' }, body: JSON.stringify(data), ...overrides });
 }
@@ -26,6 +26,13 @@ test('configuration reports enabled when all 3 env vars are set', async () => {
   const response = await handleEnquiry(new Request(origin + '/api/enquiry'), env);
   assert.deepEqual(await response.json(), { enabled: true });
   assert.equal(response.headers.get('cache-control'), 'no-store');
+});
+test('GET response includes siteKey when TURNSTILE_SITE_KEY is set', async () => {
+  const envWithTurnstile = { ...env, TURNSTILE_SITE_KEY: '0x1234567890' };
+  const response = await handleEnquiry(new Request(origin + '/api/enquiry'), envWithTurnstile);
+  const body = await response.json();
+  assert.equal(body.enabled, true);
+  assert.equal(body.siteKey, '0x1234567890');
 });
 test('missing any one env var disables the form', async () => {
   for (const key of ['RESEND_API_KEY', 'ENQUIRY_FROM', 'ENQUIRY_TO']) {
@@ -71,7 +78,22 @@ test('valid request uses fixed recipient, visitor reply-to, plain text and idemp
   assert.equal(email.from, env.ENQUIRY_FROM);
   assert.equal(email.html, undefined);
   assert.ok(email.text.includes(fields.message));
+  assert.ok(email.text.includes(fields.phone));
+  assert.ok(email.text.includes(fields.business));
+  assert.ok(email.text.includes(fields.service));
+  assert.ok(email.text.includes(fields.budget));
+  assert.ok(email.text.includes(fields.website));
   assert.equal(n.calls[0].headers['Idempotency-Key'], 'wss-enquiry/' + fields.requestId);
+});
+test('optional fields can be omitted without rejection', async () => {
+  const n = network();
+  const minimal = { name: 'Jane', email: 'jane@example.com', message: 'I need a website for my business.', requestId: 'ea616011-a221-4098-9b8f-6ff5ebefcc6c', company_url: '' };
+  const response = await handleEnquiry(request(minimal), env, n.fetcher);
+  assert.equal(response.status, 200);
+  const email = JSON.parse(n.calls[0].body);
+  assert.ok(email.text.includes('Jane'));
+  assert.ok(!email.text.includes('Phone:'));
+  assert.ok(!email.text.includes('Business:'));
 });
 test('network outage during email send returns 502', async () => {
   const response = await handleEnquiry(request(), env, async () => { throw new Error('offline'); });

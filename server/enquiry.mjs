@@ -57,6 +57,9 @@ function validate(input) {
     if (data[key].length < minimum || data[key].length > maximum) return null;
   }
   if (typeof input.service === 'string' && input.service.length <= 100) data.service = input.service.trim();
+  for (const [key, maximum] of [['phone', 20], ['business', 150], ['budget', 50], ['website', 500]]) {
+    if (typeof input[key] === 'string' && input[key].trim().length <= maximum) data[key] = input[key].trim();
+  }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) return null;
   if (/[\r\n\u0000]/.test(data.name + data.email)) return null;
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(data.requestId)) return null;
@@ -67,7 +70,12 @@ export async function handleEnquiry(request, env, fetcher = fetch) {
   if (request.method === 'OPTIONS') return new Response(null, { status: 200, headers: corsHeaders() });
   if (!['GET', 'POST'].includes(request.method)) return json({ message: 'Method not allowed.' }, 405);
   const config = configuration(env);
-  if (request.method === 'GET') return json({ enabled: Boolean(config) });
+  if (request.method === 'GET') {
+    const siteKey = (env.TURNSTILE_SITE_KEY || '').trim();
+    const body = { enabled: Boolean(config) };
+    if (siteKey) body.siteKey = siteKey;
+    return json(body);
+  }
   if (!config) return json({ message: 'Direct sending is unavailable. Please email ryan@websolutionsydney.com.au.' }, 503);
   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') || '')) return json({ message: 'Unsupported request format.' }, 415);
   let input;
@@ -75,7 +83,14 @@ export async function handleEnquiry(request, env, fetcher = fetch) {
   catch (error) { return json({ message: 'Please check the form and shorten your message if needed.' }, error.message === 'too_large' ? 413 : 400); }
   const data = validate(input);
   if (!data) return json({ message: 'Please check the form fields and try again.' }, 400);
-  const text = `Name: ${data.name}\nReply email: ${data.email}${data.service ? `\nInterested in: ${data.service}` : ''}\n\n${data.message}`;
+  const lines = [`Name: ${data.name}`, `Reply email: ${data.email}`];
+  if (data.phone) lines.push(`Phone: ${data.phone}`);
+  if (data.business) lines.push(`Business: ${data.business}`);
+  if (data.service) lines.push(`Service required: ${data.service}`);
+  if (data.budget) lines.push(`Project budget: ${data.budget}`);
+  if (data.website) lines.push(`Current website: ${data.website}`);
+  lines.push('', data.message);
+  const text = lines.join('\n');
   try {
     const response = await fetcher('https://api.resend.com/emails', {
       method: 'POST',
