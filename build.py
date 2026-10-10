@@ -241,10 +241,10 @@ enquiry_worker+='''\n\nexport default {
 assets_dir=OUT/'assets'
 assets_dir.mkdir(parents=True,exist_ok=True)
 asset_sources={
- 'logo.png':'https://websolutionsydney.com.au/logo.png',
- 'favicon.png':'https://websolutionsydney.com.au/logo.png',
- 'apple-touch-icon.png':'https://websolutionsydney.com.au/logo.png',
- 'sydney.jpg':'https://images.unsplash.com/photo-1523428096881-5bd79d043006?w=1800&h=1011&fit=crop',
+ 'logo.png':'https://websolutionsydney.com.au/assets/logo.png',
+ 'favicon.png':'https://websolutionsydney.com.au/assets/favicon.png',
+ 'apple-touch-icon.png':'https://websolutionsydney.com.au/assets/apple-touch-icon.png',
+ 'sydney.jpg':'https://websolutionsydney.com.au/assets/sydney.jpg',
 }
 for name,url in asset_sources.items():
  target=assets_dir/name
@@ -253,7 +253,8 @@ for name,url in asset_sources.items():
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
   with urllib.request.urlopen(req,timeout=30) as r:
-   target.write_bytes(r.read())
+   data=r.read()
+   if len(data)>0:target.write_bytes(data)
  except Exception as e:
   print('Warning: could not download',name,'-',e)
 
